@@ -2,6 +2,7 @@
 <script type="text/javascript">
     var lang = 'vi_VN';
     var locdef = '{CODE}';
+	var imgdef = '{NV_BASE_SITEURL}';
 </script>
 <script type="text/javascript" src="{NV_BASE_SITEURL}themes/{TEMPLATE}/js/weather.min.js"></script>
 <div>
