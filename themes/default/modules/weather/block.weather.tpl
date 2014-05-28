@@ -1,8 +1,6 @@
 <!-- BEGIN: main -->
 <script type="text/javascript">
-    var lang = 'vi_VN';
-    var locdef = '{CODE}';
-	var imgdef = '{NV_BASE_SITEURL}';
+    var lang = 'vi_VN', locdef = '{CODE}', imgdef = '{NV_BASE_SITEURL}', numday = '{NUM_DAY}';
 </script>
 <script type="text/javascript" src="{NV_BASE_SITEURL}themes/{TEMPLATE}/js/weather.min.js"></script>
 <div>

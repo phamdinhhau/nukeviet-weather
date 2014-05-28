@@ -25,6 +25,15 @@ if( ! nv_function_exists( 'nv_weather_blocks' ) )
 		{
 			$html .= '<option value="' . $l['location_code'] . '" ' . ( ( $data_block['location'] == $l['location_code'] ) ? ' selected="selected"' : '' ) . '>' . $l['location_name'] . '</option>';
 		}
+                
+        $html .= "<tr>";
+		$html .= "	<td>" . $lang_block['numday'] . "</td>";
+		$html .= "	<td><select name=\"numday\">\n";
+        //Hiện tại chỉ có 9 ngày
+        for( $i = 1; $i < 10; $i++ )
+		{
+			$html .= '<option value="' . $i . '" ' . ( ( $data_block['numday'] == $i ) ? ' selected="selected"' : '' ) . '>' . $i . ' ' . $lang_block['day'] . '</option>';
+		}
         
 		return $html;
 	}
@@ -36,6 +45,7 @@ if( ! nv_function_exists( 'nv_weather_blocks' ) )
 		$return['error'] = array();
 		$return['config'] = array();
 		$return['config']['location'] = $nv_Request->get_int( 'location', 'post', 0 );
+        $return['config']['numday'] = $nv_Request->get_int( 'numday', 'post', 0 );
 		return $return;
 	}
 
@@ -66,6 +76,7 @@ if( ! nv_function_exists( 'nv_weather_blocks' ) )
 
 		$xtpl->assign( 'TEMPLATE', $block_theme );
         $xtpl->assign( 'CODE', $block_config['location'] );
+        $xtpl->assign( 'NUM_DAY', $block_config['numday'] );
 
 		foreach( $list as $row )
 		{
