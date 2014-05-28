@@ -25,6 +25,8 @@ if( ! nv_function_exists( 'nv_weather_blocks' ) )
 		{
 			$html .= '<option value="' . $l['location_code'] . '" ' . ( ( $data_block['location'] == $l['location_code'] ) ? ' selected="selected"' : '' ) . '>' . $l['location_name'] . '</option>';
 		}
+		$html .= "</select></td>";
+		$html .= "</tr>";
                 
         $html .= "<tr>";
 		$html .= "	<td>" . $lang_block['numday'] . "</td>";
@@ -34,6 +36,8 @@ if( ! nv_function_exists( 'nv_weather_blocks' ) )
 		{
 			$html .= '<option value="' . $i . '" ' . ( ( $data_block['numday'] == $i ) ? ' selected="selected"' : '' ) . '>' . $i . ' ' . $lang_block['day'] . '</option>';
 		}
+		$html .= "</select></td>";
+		$html .= "</tr>";
         
 		return $html;
 	}
