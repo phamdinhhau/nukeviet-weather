@@ -16,3 +16,5 @@ $lang_translator['info'] = "";
 $lang_translator['langtype'] = "lang_block";
 
 $lang_block['location'] = "Tỉnh/thành phố";
+$lang_block['day'] = "ngày";
+$lang_block['numday'] = "Hiển thị thêm thời tiết";
