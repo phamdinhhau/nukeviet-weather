@@ -8,4 +8,4 @@
  * @Createdate Mon, 05 May 2014 09:40:07 GMT
  */
 
-if ( ! defined( 'NV_IS_MOD_WEATHER' ) ) die( 'Stop!!!' );/**
+if ( ! defined( 'NV_IS_MOD_WEATHER' ) ) die( 'Stop!!!' );
