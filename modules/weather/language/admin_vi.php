@@ -4,7 +4,7 @@
  * @Project Tuan Chau Dev
  * @Author Hau Pham (phamdinhhau@gmail.com)
  * @Copyright (C) 2014 Hau's Corp. All rights reserved
- * @Createdate 23/5/2014, 15:23 
+ * @Createdate 23/5/2014, 15:23
  */
 
 if ( ! defined( 'NV_MAINFILE' ) ) die( 'Stop!!!' );
@@ -28,4 +28,3 @@ $lang_module['location_name'] = 'Tỉnh/Thành phố';
 $lang_module['location_code'] = 'Mã';
 $lang_module['error_required_location_name'] = 'Lỗi: bạn cần nhập dữ liệu cho Tỉnh/Thành phố';
 $lang_module['error_required_location_code'] = 'Lỗi: bạn cần nhập dữ liệu cho Mã';
-

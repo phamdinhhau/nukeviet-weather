@@ -4,7 +4,7 @@
  * @Project Tuan Chau Dev
  * @Author Hau Pham (phamdinhhau@gmail.com)
  * @Copyright (C) 2014 Hau's Corp. All rights reserved
- * @Createdate 23/5/2014, 16:16 
+ * @Createdate 23/5/2014, 16:16
  */
 
 
@@ -20,9 +20,9 @@ $sql_create_module[] = "CREATE TABLE " . $db_config['prefix'] . "_" . $lang . "_
   id mediumint(8) unsigned NOT NULL AUTO_INCREMENT,
   location_name varchar(100) NOT NULL,
   location_code int(11) NOT NULL,
-  weight int(11) NOT NULL DEFAULT '0',  
+  weight int(11) NOT NULL DEFAULT '0',
   status tinyint(1) unsigned NOT NULL DEFAULT '1',
-  PRIMARY KEY (`id`)
+  PRIMARY KEY (id)
 ) ENGINE=MyISAM";
 
 $sql_create_module[] = "INSERT INTO " . $db_config['prefix'] . "_" . $lang . "_weather (location_name, location_code, weight) VALUES ('Cao Bằng', 1252353, '1')";

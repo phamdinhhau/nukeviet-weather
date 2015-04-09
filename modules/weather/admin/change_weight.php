@@ -4,7 +4,7 @@
  * @Project Tuan Chau Dev
  * @Author Hau Pham (phamdinhhau@gmail.com)
  * @Copyright (C) 2014 Hau's Corp. All rights reserved
- * @Createdate 24/5/2014, 12:11 
+ * @Createdate 24/5/2014, 12:11
  */
 
 if( ! defined( 'NV_IS_FILE_ADMIN' ) ) die( 'Stop!!!' );
