@@ -107,7 +107,7 @@ function showWeather(url) {
                     huong = 'North';
                     break;
                 }
-                if (lang == 'vi_VN') wind = 'Gió ' + dr[huong];
+                if (lang == 'vi_VN') wind = 'Gió ' + huong;
                 else wind = huong + ' Winds ';
                 wind = wind + ' ' + $(this).attr('speed');
             });
